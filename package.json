@@ -5,10 +5,9 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "",
+        "start:dev": "webpack-dev-server",
         "build": "webpack --mode development"
     },
-    "author": "Serena Wang",
     "license": "ISC",
     "dependencies": {
         "@babel/plugin-proposal-decorators": "^7.10.5",
@@ -23,7 +22,12 @@
         "@babel/preset-react": "^7.10.4",
         "babel-loader": "^8.1.0",
         "webpack": "^4.44.1",
-        "webpack-cli": "^3.3.12"
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "author": {
+        "name": "Serena Wang",
+        "email": "serena.happyhacking@gmail.com"
     },
     "resolutions": {
         "styled-components": "^5"
